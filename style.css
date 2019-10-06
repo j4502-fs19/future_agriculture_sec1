@@ -31,5 +31,11 @@ font-family: 'Arimo', sans-serif;
   	background: #238014;
   	border-radius: 3px;
     text-align: center;
-    font-size: 18pt; 
+    font-size: 18pt;
   }
+
+#footer {
+font-family: Georgia, "Times New Roman", Serif;
+color: black;
+font-size: 0.8em;
+border-top: 1px solid black;
