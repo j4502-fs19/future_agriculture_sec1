@@ -54,3 +54,12 @@ color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
 }
+
+.caption {
+    color: black;
+    font-family:Georgia, "Time New Roman", Serif;
+    font-style: normal;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: left;
+}
