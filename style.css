@@ -14,6 +14,13 @@ h2 {
 color: black;
 font-size: 18pt;
 font-family: 'Arimo', sans-serif;
+border-bottom: 05px solid #238014;
+}
+
+h3 {
+	color: black;
+	font-size: 16pt;
+	font-family: 'Arimo', sans-serif;
 }
 
 .container {
