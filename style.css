@@ -32,7 +32,14 @@ font-family: 'Arimo', sans-serif;
   	border-radius: 3px;
     text-align: center;
     font-size: 18pt;
+		text-decoration: none;
+		font-family: 'Arimo', sans-serif;
   }
+
+.item a:link, .item a:visited {
+	color: white;
+}
+
 
 #footer {
 font-family: Georgia, "Times New Roman", Serif;
