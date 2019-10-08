@@ -67,4 +67,13 @@ border-top: 1px solid black;
 .container1 {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
 }
