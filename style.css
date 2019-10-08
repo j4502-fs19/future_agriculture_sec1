@@ -66,5 +66,5 @@ border-top: 1px solid black;
 
 container1 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
