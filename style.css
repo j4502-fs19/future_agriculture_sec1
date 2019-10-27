@@ -24,6 +24,11 @@ h3 {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
 	padding: 10px;
 	background: #fff;
   border-radius: 5px;
@@ -49,10 +54,15 @@ h3 {
 
 
 #footer {
-font-family: Georgia, "Times New Roman", Serif;
+font-family:'Arimo', sans-serif;
 color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
+
+}
+
+a {
+	text-decoration: none;
 }
 
 .caption {
@@ -62,4 +72,80 @@ border-top: 1px solid black;
     font-size: 0.8em;
     margin-top: 0;
     text-align: left;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+nav ul li {
+  display: block;
+  border-top: 1px #79896D solid;
+}
+
+nav a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+header {
+  background-color: #238014;
+  margin: 0;
+  padding: 0 10px;
+}
+
+header {
+  display: flex;
+  flex-flow:row;
+}
+
+.menu-trigger {
+  order: 1;
+  font-size: 1.75em;
+  width: 2em;
+}
+
+header h1 {
+  order: 2;
+  color: white;
+  font-size: 2em;
+}
+
+nav ul {
+  display: none;
+}
+
+@media screen and (min-width:700px) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    border-top: none;
+  }
+
+  .menu-trigger {
+    display: none;
+  }
+
+  header h1 {
+    order: 1;
+  }
+
+  nav {
+    order:2;
+  }
 }
