@@ -58,6 +58,11 @@ font-family:'Arimo', sans-serif;
 color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
+
+}
+
+a {
+	text-decoration: none;
 }
 
 .caption {
