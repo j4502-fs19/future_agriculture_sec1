@@ -218,4 +218,34 @@ nav ul {
 		grid-row:4;
 	}
 
+	.s7{
+		grid-column:1;
+		grid-row:5;
+	}
+
+	.i7{
+		grid-column:1;
+		grid-row:6;
+	}
+
+	.s8{
+		grid-column:2;
+		grid-row:5;
+	}
+
+	.i8{
+		grid-column:2;
+		grid-row:6;
+	}
+
+	.s9{
+		grid-column:3;
+		grid-row:5;
+	}
+
+	.i9{
+		grid-column:3;
+		grid-row:6;
+	}
+
 }
