@@ -23,12 +23,47 @@
 		<li><a href="aboutpage.html">About</a></div>
   </ul>
 </nav>
+
+<meta charset="utf-8">
+	<title>Responsive Image Slider</title>
+	<link rel="stylesheet" href="finished.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+
 </header>
 <body>
 <!--This is a comment. It won't show up in your browser, only in the page source-->
 	<h1>Gallery</h1>
 
 	<h2>Farming technology</h2>
+
+	<div class="flex-container">
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<a href="#"><img src="images/tractor.jpg" alt="tractor photo" width="500px" /></a>
+			</li>
+
+			<li>
+				<img src="images/corn.jpg" alt="corn photo" width="400px" />
+			</li>
+
+			<li>
+				<img src="images/potato.jpg" alt="potato photo" width="400px"/>
+				<p>Photo caption goes here</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		controlsContainer: '.flexslider'
+	});
+});
+</script>
 
   <p>
 		<img src="images/tractor.jpg" alt="tractor photo" width="500px">
