@@ -68,7 +68,7 @@ a {
 .caption {
     color: black;
     font-family:Georgia, "Time New Roman", Serif;
-    font-style: normal;
+    font-style:italic;
     font-size: 0.8em;
     margin-top: 0;
     text-align: left;
@@ -433,9 +433,10 @@ html[xmlns] .slides { display: block; }
 	bottom: 0;
 	padding: 0 5px;
 	margin: 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Georgia, "Time New Roman", Serif;
 	font-size: 12px;
 	font-weight: bold;
+	font-style:italic;
 	text-transform: uppercase;
 	line-height: 20px;
 	color: white;
