@@ -156,6 +156,7 @@ nav ul {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: minmax(80px, 1fr);
 		grid-gap: 8px;
+		grid
 	}
 
 	.s1{
@@ -252,7 +253,7 @@ nav ul {
 	}
 
 
-img {
+#images {
 	width: 500px;
 }
 
@@ -470,7 +471,7 @@ p {
 
 	@media screen and (min-width:900px) {
 
- img {
+ .images {
 	 width: 700px;
  }
 
