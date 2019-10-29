@@ -444,3 +444,11 @@ html[xmlns] .slides { display: block; }
 	background: rgba(0,0,0, .9);
 	border-radius: 2px;
 }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
