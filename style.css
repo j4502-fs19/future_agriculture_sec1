@@ -605,3 +605,27 @@ p {
 	grid-row: 2;
 	justify-self:center;
 }
+
+.card15 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+.card16 {
+	grid-column:1;
+	grid-row: 1;
+	justify-self:center;
+}
+
+.card17 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+.card18 {
+	grid-column:1;
+	grid-row: 2;
+	justify-self:center;
+}
