@@ -24,6 +24,28 @@ h3 {
 	font-family: 'Arimo', sans-serif;
 }
 
+h4 {
+	color: black;
+	font-size: 14pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: none;
+}
+
+h5 {
+	color: black;
+	font-size: 11pt;
+	font-family: Georgia, "Times New Roman", serif;
+	max-width: 90%;
+	font-weight: normal;
+}
+
+h6 {
+	color: black;
+	font-size: 10pt;
+	font-family: 'Arimo', sans-serif;
+	padding: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -497,3 +519,36 @@ p {
 		grid-column: 2/4;
 		grid-row: 1;
 	}
+
+	.cards {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+}
+
+.card1 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+.card2 {
+	grid-column:1;
+	grid-row: 1;
+	justify-self:center;
+}
+
+.card3 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+.card4 {
+	grid-column:1;
+	grid-row: 2;
+	justify-self:center;
+}
