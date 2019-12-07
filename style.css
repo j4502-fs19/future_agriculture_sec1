@@ -513,39 +513,6 @@ p {
 		text-align: center;
 	}
 
-.cards {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-
-}
-
-	.card1 {
-
-	  grid-column: 2/4;
-		grid-row: 1;
-
-	}
-
-	.card2 {
-		grid-column: 1;
-		grid-row: 1;
-	}
-
-	.card3 {
-		grid-column: 2/4;
-		grid-row: 2;
-	}
-
-	.card5 {
-		grid-column: 2/4;
-		grid-row: 3;
-	
-	}
-
 	.cards {
         margin: 0;
         padding: 0;
@@ -576,5 +543,41 @@ p {
 .card4 {
 	grid-column:1;
 	grid-row: 2;
+	justify-self:center;
+}
+
+.card5 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+.card6 {
+	grid-column:1;
+	grid-row: 1;
+	justify-self:center;
+}
+
+.card7 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+.card8 {
+	grid-column:1;
+	grid-row: 2;
+	justify-self:center;
+}
+
+.card9 {
+	align-self: flex-end;
+  grid-column: 2/4;
+  grid-row: 3;
+}
+
+.card10 {
+	grid-column:1;
+	grid-row: 3;
 	justify-self:center;
 }
