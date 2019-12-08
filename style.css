@@ -98,12 +98,16 @@ a {
 }
 
 .photographer {
-    color: black;
+    color: #238014;
     font-family:Georgia, "Time New Roman", Serif;
     font-style:italic;
     font-size: 0.8em;
     margin-top: 0;
     text-align: right;
+}
+
+.byline{
+	color:#238014;
 }
 
 .container1 {
