@@ -520,6 +520,7 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
+
 }
 
 .card1 {
@@ -640,4 +641,10 @@ p {
 	grid-column:1;
 	grid-row: 1;
 	justify-self:center;
+}
+
+
+
+@media screen and (min-width:400px) {
+	
 }
