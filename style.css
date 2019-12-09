@@ -81,8 +81,14 @@ font-family:'Arimo', sans-serif;
 color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
-
 }
+
+#logos{
+	display:grid;
+	grid-template-columns: 200px 200px;
+	grid-column-gap: 15px;
+}
+
 
 a {
 	text-decoration: none;
@@ -95,6 +101,19 @@ a {
     font-size: 0.8em;
     margin-top: 0;
     text-align: left;
+}
+
+.photographer {
+    color: #238014;
+    font-family:Georgia, "Time New Roman", Serif;
+    font-style:italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: right;
+}
+
+.byline{
+	color:#238014;
 }
 
 .container1 {
@@ -150,6 +169,10 @@ nav ul {
   display: none;
 }
 
+.content{
+	width:90%;
+	margin:0 auto;
+}
 
 @media screen and (min-width:700px) {
 
@@ -183,90 +206,7 @@ nav ul {
 
 
 
-	/* .s2{
-		grid-column:2;
-		grid-row:1;
-		align-self: flex-end;
-	}
-
-	.i2{
-		grid-column:2;
-		grid-row:2;
-	}
-
-	.s3{
-		grid-column:3;
-		grid-row:1;
-		align-self: flex-end;
-	}
-
-	.i3{
-		grid-column:3;
-		grid-row:2;
-	}
-
-	.s4{
-		grid-column:1;
-		grid-row:3;
-	}
-
-	.i4{
-		grid-column:1;
-		grid-row:4;
-	}
-
-	.s5{
-		grid-column:2;
-		grid-row:3;
-	}
-
-	.i5{
-		grid-column:2;
-		grid-row:4;
-	}
-
-	.s6{
-		grid-column:3;
-		grid-row:3;
-	}
-
-	.i6{
-		grid-column:3;
-		grid-row:4;
-	}
-
-	.s7{
-		grid-column:1;
-		grid-row:5;
-	}
-
-	.i7{
-		grid-column:1;
-		grid-row:6;
-	}
-
-	.s8{
-		grid-column:2;
-		grid-row:5;
-	}
-
-	.i8{
-		grid-column:2;
-		grid-row:6;
-	}
-
-	.s9{
-		grid-column:3;
-		grid-row:5;
-	}
-
-	.i9{
-		grid-column:3;
-		grid-row:6;
-	} */
-
-
-.farmimages {
+	.farmimages {
 	width: 500px;
 }
 
@@ -274,8 +214,6 @@ p {
  max-width: 90%;
  padding-left: 100px;
  padding-right: 100px;
-}
-
 }
 
 
@@ -646,5 +584,5 @@ p {
 
 
 @media screen and (min-width:400px) {
-	
+
 }
