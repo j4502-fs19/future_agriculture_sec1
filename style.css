@@ -434,8 +434,6 @@ p {
  }
 
 
-	}
-
 
 	.container3 {
 		display: flex;
@@ -582,8 +580,20 @@ p {
 	justify-self:center;
 }
 
+.subhead{
+		color: black;
+		font-size: 14pt;
+		font-family: Georgia, "Times New Roman", serif;
+		padding: none;
+		font-weight: bold;
+		margin-top: 50px;
 
+}
 
-@media screen and (min-width:400px) {
-
+.relate{
+color: black;
+font-size: 16pt;
+font-family: 'Arimo', sans-serif;
+font-weight: bold;
+margin-top: none;
 }
