@@ -206,13 +206,15 @@ nav ul {
 		font-weight: bold;
 		margin-top: 50px;
 
-
+}
 
 @media screen and (min-width:700px) {
 
   nav ul {
     display: flex;
   }
+
+
 
   nav ul li {
     border-top: none;
@@ -453,7 +455,7 @@ p {
 
 
 
-
+}
 
 	@media screen and (min-width:900px) {
 
