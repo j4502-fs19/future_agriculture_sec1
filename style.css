@@ -104,7 +104,11 @@ a {
 }
 
 li {
-	text-decoration: none;
+	list-style: none;
+}
+
+ul {
+	list-style: none;
 }
 
 .caption {
@@ -187,6 +191,14 @@ nav ul {
 	width:90%;
 	margin:0 auto;
 }
+
+
+.flexslider {
+	align-content: center;
+}
+
+
+
 
 
 
