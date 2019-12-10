@@ -458,6 +458,9 @@ p {
 
 }
 
+.cards {
+	display: grid;
+}
 
 .card1 {
 	align-self: flex-end;
