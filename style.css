@@ -198,7 +198,13 @@ nav ul {
 }
 
 
-
+.tinstory{
+		color: black;
+		font-size: 14pt;
+		font-family: Georgia, "Times New Roman", serif;
+		padding: none;
+		font-weight: bold;
+		margin-top: 50px;
 
 
 
@@ -448,6 +454,7 @@ p {
 
 
 
+
 	@media screen and (min-width:900px) {
 
  .farmimages {
@@ -607,13 +614,7 @@ p {
 	justify-self:center;
 }
 
-.subhead{
-		color: black;
-		font-size: 14pt;
-		font-family: Georgia, "Times New Roman", serif;
-		padding: none;
-		font-weight: bold;
-		margin-top: 50px;
+
 
 }
 
