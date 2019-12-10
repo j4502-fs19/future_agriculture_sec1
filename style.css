@@ -103,6 +103,10 @@ a {
 	text-decoration: none;
 }
 
+li {
+	text-decoration: none;
+}
+
 .caption {
     color: black;
     font-family:Georgia, "Time New Roman", Serif;
@@ -142,6 +146,7 @@ a {
 nav ul li {
   display: block;
   border-top: 1px #79896D solid;
+	text-decoration: none;
 }
 
 nav a {
@@ -182,6 +187,8 @@ nav ul {
 	width:90%;
 	margin:0 auto;
 }
+
+
 
 @media screen and (min-width:700px) {
 
