@@ -465,7 +465,18 @@ p {
     margin-inline-end: 0px;
 	}
 
-
+	.cards {
+	        margin: 0;
+	        padding: 0;
+	        list-style: none;
+	        display: grid;
+	        grid-template-columns: 1fr 1fr 1fr;
+	        grid-gap: 20px;
+	        grid-template-areas:
+	            "a a b"
+	            ". d d"
+	            "c e e";
+	    }
 
 
 
