@@ -398,8 +398,9 @@ justify-self:center;
 @media screen and (min-width:900px) {
 
 	.farmimages {
-	width: 650px;
+	width: 700px;
 }
+
 
 
 }
@@ -498,7 +499,7 @@ html[xmlns] .slides { display: block; }
 	height: 13px;
 	top: 11px;
 	left: 11px;
-	background: url(images/arrows.png) no-repeat;
+	background: url(file:///Users/jacquelinelemp/Desktop/future_agriculture_sec1/images/arrows.png) no-repeat;
 }
 
 .flex-direction-nav a:after {
