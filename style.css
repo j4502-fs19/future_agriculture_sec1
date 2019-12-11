@@ -250,11 +250,11 @@ nav ul {
 }
 
 .caption{
-	width:650px;
+	width:500px;
 }
 
 .photographer{
-	width:650px;
+	width:500px;
 }
 
 p {
@@ -408,7 +408,13 @@ justify-self:center;
 	width: 700px;
 }
 
+.caption{
+	width:700px;
+}
 
+.photographer{
+	width:700px;
+}
 
 }
 
