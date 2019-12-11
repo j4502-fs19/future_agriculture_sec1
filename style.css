@@ -118,6 +118,7 @@ ul {
     font-size: 0.8em;
     margin-top: 0;
     text-align: left;
+		width:300px;
 }
 
 .photographer {
@@ -127,6 +128,7 @@ ul {
     font-size: 0.8em;
     margin-top: 0;
     text-align: right;
+		width:300px;
 }
 
 .byline{
@@ -243,11 +245,16 @@ nav ul {
 
 	}
 
+.farmimages{
+	width:500px;
+}
 
+.caption{
+	width:650px;
+}
 
-	.farmimages {
-	width: 500px;
-
+.photographer{
+	width:650px;
 }
 
 p {
