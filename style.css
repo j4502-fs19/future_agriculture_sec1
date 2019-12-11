@@ -194,7 +194,7 @@ nav ul {
 
 
 .flexslider {
-	align-content: center;
+	align-self: center;
 }
 
 
@@ -255,8 +255,16 @@ p {
  padding-right: 100px;
 }
 
+
 }
 
+
+@media screen and (min-width:900px) {
+
+	.farmimages {
+	width: 650px;
+}
+}
 
 
 
@@ -456,11 +464,10 @@ p {
     margin-inline-end: 0px;
 	}
 
-}
 
-.cards {
-	display: grid;
-}
+
+
+
 
 .card1 {
 	align-self: flex-end;
